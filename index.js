@@ -86,8 +86,8 @@ const getRegist = (email, nama, IPcon, reff) =>
       redirect: "manual",
       body: JSON.stringify({
         userName: email,
-        password: "Kaserinas123@",
-        rePassword: "Kaserinas123@",
+        password: "Babiguling123@",
+        rePassword: "Babiguling123@",
         fromReferralId: reff,
         fullName: nama,
       }),
