@@ -133,8 +133,8 @@ const Otp = (token, otpa, IPcon) =>
       });
   });
 (async () => {
+  const reff = readlineSync.question("[?] Masukan Kode reffmu ?;
   while (true) {
-    const reff = "2II9LVLV";
     const domain = "ehroyhehe.my.id";
     const indoName = await generateIndoName();
     const rand = await randstr(4);
